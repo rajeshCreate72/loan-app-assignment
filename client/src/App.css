@@ -1,25 +1,33 @@
 #root {
-    height: 100vh;
-    align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
 }
 
-#info {
-    bottom: 0;
-    right: 0;
-    margin: 10px;
-    position: absolute;
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: column wrap;
-    height: 100%;
-    width: 100%;
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
+<<<<<<< HEAD
 nav {
     display: flex;
     flex-wrap: wrap;
@@ -28,22 +36,18 @@ nav {
     align-items: center;
     position: fixed;
     top: 10px;
+=======
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+>>>>>>> parent of f142a09 (Users added, Home page, Login and Register page has been created)
 }
 
-TextField {
-    margin: 10px;
+.card {
+  padding: 2em;
 }
 
-.register-form {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
-
-.theme-switcher {
-    position: absolute;
-    top: 0;
-    right: 0;
+.read-the-docs {
+  color: #888;
 }
