@@ -28,6 +28,7 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 nav {
     display: flex;
     flex-wrap: wrap;
@@ -37,10 +38,15 @@ nav {
     position: fixed;
     top: 10px;
 =======
+=======
+>>>>>>> parent of f142a09 (Users added, Home page, Login and Register page has been created)
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
+<<<<<<< HEAD
+>>>>>>> parent of f142a09 (Users added, Home page, Login and Register page has been created)
+=======
 >>>>>>> parent of f142a09 (Users added, Home page, Login and Register page has been created)
 }
 
