@@ -107,6 +107,12 @@ function RegisterPage() {
                     Register
                 </Button>
             </form>
+            <h2 style={{ marginTop: "20px" }}>
+                Already registered?{" "}
+                <Button variant="contained" color="secondary" onClick={() => navigate("/login")}>
+                    Login
+                </Button>
+            </h2>
         </div>
     );
 }

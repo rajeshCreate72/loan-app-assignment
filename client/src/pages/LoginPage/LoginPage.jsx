@@ -81,6 +81,12 @@ function LognPage() {
                     Login
                 </Button>
             </form>
+            <h2 style={{ marginTop: "20px" }}>
+                Haven't registered?{" "}
+                <Button variant="contained" color="secondary" onClick={() => navigate("/register")}>
+                    Register
+                </Button>
+            </h2>
         </div>
     );
 }
